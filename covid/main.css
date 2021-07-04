@@ -130,12 +130,15 @@ main {
 
 .current {
   display: flex;
+  justify-content: space-between;
   font-size: 12px;
   margin-top: 40px;
 }
 
 .confirmed {
-  margin: 40px 10px;
+  /* margin: 40px 10px; */
+  background-color: rgba(225, 0, 0, 0.2);
+  margin-top: 40px;
   color: #f0431a;
   height: 100px;
   padding: 2px 4px;
@@ -151,7 +154,9 @@ main {
 }
 
 .recovered {
-  margin: 40px 10px;
+  /* margin: 40px 10px; */
+  background-color: rgba(0, 0, 255, 0.1);
+  margin-top: 40px;
   color: #326bed;
   height: 100px;
   padding: 2px 4px;
@@ -166,7 +171,9 @@ main {
 }
 
 .deceased {
-  margin: 40px 10px;
+  /* margin: 40px 10px; */
+  background-color: rgba(128, 128, 128, 0.6);
+  margin-top: 40px;
   color: #58595d;
   height: 100px;
   padding: 2px 4px;
