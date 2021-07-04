@@ -36,6 +36,11 @@ body {
 }
 
 @media only screen and (min-width: 680px) {
+  .recovered,
+  .deceased,
+  .deceased {
+    margin: 40px 20px;
+  }
   .app-wrap {
     padding: 0 100px;
   }
@@ -130,7 +135,7 @@ main {
 }
 
 .confirmed {
-  margin: 40px 20px;
+  margin: 40px 10px;
   color: #f0431a;
   height: 100px;
   padding: 2px 4px;
@@ -146,7 +151,7 @@ main {
 }
 
 .recovered {
-  margin: 40px 20px;
+  margin: 40px 10px;
   color: #326bed;
   height: 100px;
   padding: 2px 4px;
@@ -161,7 +166,7 @@ main {
 }
 
 .deceased {
-  margin: 40px 20px;
+  margin: 40px 10px;
   color: #58595d;
   height: 100px;
   padding: 2px 4px;
