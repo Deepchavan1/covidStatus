@@ -130,7 +130,7 @@ main {
 
 .current {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-size: 12px;
   margin-top: 40px;
 }
