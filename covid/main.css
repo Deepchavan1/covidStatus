@@ -32,7 +32,7 @@ body {
 
 .app-wrap {
   margin-top: 90px;
-  padding: 0 60px;
+  padding: 0 0px;
 }
 
 @media only screen and (min-width: 680px) {
@@ -223,4 +223,8 @@ img {
   margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.footer .links a {
+  text-decoration: none;
 }
