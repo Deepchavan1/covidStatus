@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins";
+  background-color: #10131a;
+  color: #326bed;
+  background-image: url("https://i.ytimg.com/vi/1U2rMcQ8flc/maxresdefault.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+}
+.nav {
+  font-size: 12px;
+  margin: 0 auto 5px;
+  padding: 5px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.1);
+  font-size: 12px;
+}
+
+.status {
+  color: #326bed;
+}
+
+.app-wrap {
+  margin-top: 90px;
+  padding: 0 60px;
+}
+
+@media only screen and (min-width: 680px) {
+  .app-wrap {
+    padding: 0 100px;
+  }
+}
+
+@media only screen and (min-width: 850px) {
+  .app-wrap {
+    padding: 0 150px;
+  }
+}
+
+@media only screen and (min-width: 950px) {
+  .app-wrap {
+    padding: 0 250px;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  .app-wrap {
+    padding: 0 300px;
+  }
+}
+
+@media only screen and (min-width: 1150px) {
+  .app-wrap {
+    padding: 0 350px;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .app-wrap {
+    padding: 0 400px;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .app-wrap {
+    padding: 0 450px;
+  }
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 15px 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+header input {
+  font-family: "Poppins";
+  width: 100%;
+  max-width: 250px;
+  padding: 8px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #787e7e;
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+}
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.location {
+  color: #58595d;
+  font-weight: bold;
+  font-size: 32px;
+  font-weight: medium;
+  margin-bottom: 5px;
+}
+
+.date {
+  font-size: 15px;
+  font-weight: 25px;
+}
+
+.current {
+  display: flex;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.confirmed {
+  margin: 40px 20px;
+  color: #f0431a;
+  height: 100px;
+  padding: 2px 4px;
+  font-weight: 1px;
+  font-size: 7px;
+  border-radius: 2px;
+}
+
+.confirmed-cases {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.recovered {
+  margin: 40px 20px;
+  color: #326bed;
+  height: 100px;
+  padding: 2px 4px;
+  font-weight: 1px;
+  font-size: 7px;
+  border-radius: 2px;
+}
+.recovered-cases {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.deceased {
+  margin: 40px 20px;
+  color: #58595d;
+  height: 100px;
+  padding: 2px 4px;
+  font-weight: 1px;
+  font-size: 7px;
+  border-radius: 2px;
+}
+
+.deceased-cases {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.checked,
+.reported {
+  display: flex;
+  font-size: 6px;
+  color: #606062;
+}
+
+.check,
+.report {
+  font-size: 15px;
+  margin-left: 10px;
+  color: #606062;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+img {
+  width: 100px;
+  margin-top: 12.5px;
+}
+
+.img {
+  width: 25px;
+  margin: 2px;
+  margin-left: 20px;
+}
+
+.img-1,
+.img:hover {
+  cursor: pointer;
+}
+
+.img-1 {
+  width: 13px;
+  margin: 2px;
+  margin-left: 18px;
+}
+
+.footer {
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
